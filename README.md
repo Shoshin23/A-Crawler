@@ -18,7 +18,7 @@ python crawler.py -d<n> <url>
 python crawler.py <url>
 ```
 Where n is the depth that you want to traverse. 
-In the 2nd case, when just the target URL is provided, the default depth of traversal is 10.
+In the 2nd case, when just the target URL is provided, the default depth of traversal is 5.
 
 
 ```
