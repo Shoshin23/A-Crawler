@@ -20,7 +20,7 @@ def option_parser():
         default=False,dest='links', help="Get links for target url only.")
 
     parser.add_argument("-d", "--depth", action="store", type=int ,
-        default=30, dest='depth', help="Maximum depth to traverse.")
+        default=5, dest='depth', help="Maximum depth to traverse.")
     parser.add_argument("url",help="The target URL.")
 
     args = parser.parse_args()
